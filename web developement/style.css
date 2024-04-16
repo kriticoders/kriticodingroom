@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color: rgb(255, 172, 172);
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+}
+.heading h1{
+    color:limegreen;
+
+}
+.heading h2{
+    color:salmon;
+
+}
+.paragraph{
+    padding:2% 2%;
+}
+.paragraph p{
+    color :navy;
+    font-size: 18px;
+    width: 30%;
+    padding: 5%;
+    border: 2px solid #fff;
+    border-radius: 10%;
+    background-color: aliceblue;
+}
+
+.paragraph p:hover{
+    background-color: aqua;
+}
+.subject a{
+    text-decoration: none;
+    color :rgb(4, 255, 213);
+    font-size: 18px;
+    width : 20%;
+} 
