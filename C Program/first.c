@@ -1,10 +1,14 @@
 # include <stdio.h>
-int main(){
- int a =18, b=9, c,d,e=10, f;
 
- c=++b;
- d=b;
- printf("%d \n" , f!=1);
- printf("%d \n" ,a+c==b>=e<c+d!=1);
+int main(){
+ int a ,b,sum;
+ printf("enter two numbers");
+ scanf("%d%d",&a,&b);
+ sum =a+b;
+ printf("sum is=%d" ,sum);
+
+
+
+
  
 }
