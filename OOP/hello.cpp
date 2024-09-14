@@ -1,13 +1,31 @@
 #include <iostream>
 using namespace std;
-inline void sum(int a,int b)
+
+class Complex
 {
-cout<<"the sum is"<<a+b<<"\n";
+   int a,b;//private data member
+
+public:
+
+Complex(void);
+void printNumber()
+{
+    cout<<"your number is" <<a<<"+"<<b<<"i"<<endl;
 }
+};
+
+Complex ::Complex(void)
+{
+    a= 10;
+    b =0;
+    
+}
+
 int main()
 {
-    sum(8 , 9);
-    sum(117 , 123);
-    sum(112 , 204);
+    Complex c1,c2,c3;
+    c1.printNumber();
+    c2.printNumber();
+    c3.printNumber();
     return 0;
 }

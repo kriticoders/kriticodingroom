@@ -1,18 +1,18 @@
 # include <stdio.h>
 int main(){
-    int i=0,j=1;
-    while(i<3)
-    {
-        while(i<=3)
-        {
+  int i=0;
+  do{
+   
+    i=i+1;
+   printf("%d\n",i);
+   
+  }while(i<10);
 
-        }
-    }
-printf("%d%d" ,++i,++j);
+  
+  
+
+
 }
- 
-
-
 
 
 
